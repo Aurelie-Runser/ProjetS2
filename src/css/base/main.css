@@ -12,3 +12,8 @@ body{
     background: linear-gradient(to bottom, var(--color-fonce), var(--color-claire)) no-repeat;
 }
 
+.soulignement{
+    width: 100px;
+    height: 10px;
+    background-color: var(--color-fonce);
+}
