@@ -1,0 +1,12 @@
+.header__vague{
+    position: absolute;
+    height: 50vh;
+    top: 40vh;
+    right: -20px;
+}
+
+.valeur__vague{
+    position: absolute;
+    height: 55vh;
+    margin-top: -20vh;
+}
