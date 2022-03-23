@@ -9,6 +9,7 @@
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     font-family: var(--font-text);
     background: linear-gradient(to bottom, var(--color-fonce), var(--color-claire)) no-repeat;
 }
@@ -18,6 +19,10 @@ h1,
     font-weight: 700;
     font-style: italic;
     font-family: var(--font-title);
+}
+
+h2{
+    font-size: var(--size-title);
 }
 
 .logo__text{

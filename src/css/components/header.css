@@ -30,10 +30,3 @@
 .slogan__souligne{
     width: 390px;
 }
-
-.header__vague{
-    position: absolute;
-    height: 50vh;
-    top: 40vh;
-    right: -20px;
-}
