@@ -1,0 +1,23 @@
+.equipe{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0;
+}
+
+.equipe__avatar{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    align-items: center;
+}
+
+.avatar__nom{
+    font-family: var(--font-title);
+    font-size: var(--size-nom);
+    margin: 1vh 0
+}
+
+.avatar__text{
+    margin: 0.5vh 0;
+    font-size: var(--size-text);
+}

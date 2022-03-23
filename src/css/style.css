@@ -16,6 +16,8 @@
 /* Layout */
 @import url("layout/logo.css");
 @import url("layout/vague.css");
+@import url("layout/souligne.css");
+@import url("layout/avatar.css");
 
 /* Utils */
 @import url("utils/variables.css");
