@@ -1,0 +1,39 @@
+.header__logo{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3vh 0;
+}
+
+.header__banniere{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.banniere__illustration{
+    display: inline-block;
+    width: 40vw;
+    margin: 5vh 0;
+}
+
+.banniere__droit{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin: 0 12vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slogan__souligne{
+    width: 390px;
+}
+
+.header__vague{
+    position: absolute;
+    height: 50vh;
+    top: 40vh;
+    right: -20px;
+}

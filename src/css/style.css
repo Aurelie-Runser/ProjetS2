@@ -1,10 +1,19 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 /* Base */
 @import url("base/main.css");
 @import url("base/media.css");
 
 /* Compenents */
+@import url("components/header.css");
+@import url("components/bouton.css");
+
 
 /* Layout */
+@import url("layout/logo.css");
 
 /* Utils */
 @import url("utils/variables.css");
