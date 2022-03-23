@@ -1,0 +1,23 @@
+.valeur,
+.valeur-inverse{
+    display: flex;
+    width: 100%;
+    padding: 15vh 15vw;
+    align-items: center;
+}
+
+.valeur-inverse{
+    justify-content: space-between;
+}
+
+.valeur__img{
+    height: 40vh;
+}
+
+.valeur__text-droit{
+    margin-left: 10vw;
+}
+
+.valeur__button{
+    margin: 10vh auto;
+}

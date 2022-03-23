@@ -10,10 +10,12 @@
 /* Compenents */
 @import url("components/header.css");
 @import url("components/bouton.css");
+@import url("components/valeur.css");
 
 
 /* Layout */
 @import url("layout/logo.css");
+@import url("layout/vague.css");
 
 /* Utils */
 @import url("utils/variables.css");
