@@ -62,8 +62,8 @@
     <img class="vague_3" src="public/img/vague_droit.webp" alt="vague">
 
     <div>
-        <div class="equipe__title">
-            <h3 class="equipe__title-text">Notre équipe</h3>
+        <div class="title">
+            <h3 class="title-text">Notre équipe</h3>
             <div class="souligne equipe__souligne"> </div>
         </div>
 
@@ -93,6 +93,109 @@
             <p>Nous espérons que vous apprécierez utiliser notre site.</p>
         <p>Si vous avez des commentaires pour nous aider à améliorer nos services, vous pouvez nous en faire par en nous contactant.</p>
         </div>
+
+    </div>
+
+    <div>
+        <div class="title">
+            <h3 class="title-text">Nous contacter</h3>
+            <div class="souligne contact__souligne"> </div>
+        </div>
+
+        <div class="contact">
+
+            <div class="contact__info">
+
+                <div class="cercle_1"></div>
+
+                <h4>Nos contacts</h4>
+                <p>Nous sommes à votre disposition</p>
+
+                <ul class="contact__contact">
+                    <li class="contact__items">
+                        <img class="contact__img" src="public/icones/pin.svg" alt="illustration d'un pin de carte">
+                        <address>4 place Tharradin <br>25200, Montbéliard</address>
+                    </li>
+                    <li class="contact__items">
+                        <img class="contact__img" src="public/icones/mail.svg" alt="illustration d'un mail">
+                        <a href="mailto:dut-mmi-montbleliard@univ-fcomte.fr">dut-mmi-montbleliard@univ-fcomte.fr</a>
+                    </li>
+                    <li class="contact__items">
+                        <img class="contact__img" src="public/icones/telephone.svg" alt="illustration d'un téléphone">
+                        <a href="tel:0381994734">03 81 99 47 34</a>
+                    </li>
+                </ul>
+
+                <div class="cercle_2"></div>
+                <div class="cercle_3"></div>
+                <div class="carre"></div>
+
+                <ul class="contact__reseau">
+                    <li class="reseau__items">
+                        <a href="https://instagram.com">
+                            <img src="public/icones/instagram.svg" alt="logo d'Instagram">
+                        </a>
+                    </li>
+                    <li class="reseau__items">
+                        <a href="https://facebook.com">
+                            <img src="public/icones/facebook.svg" alt="logo de Facebook">
+                        </a>
+                    </li>
+                    <li class="reseau__items">
+                        <a href="https://twitter.com">
+                            <img src="public/icones/twitter.svg" alt="logo de Twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact__formulaire">
+
+                <div class="formulaire__prenomnom">
+                    <input type="text"
+                            id="nom"
+                            name="nom"
+                            required
+                            placeholder="Nom *">
+
+                    <input type="text"
+                            id="prenom"
+                            name="prenom"
+                            required
+                            placeholder="Prénom *">
+                </div>
+
+                <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email *"
+                        required>
+
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <div>
+                    <input type="checkbox"
+                            id="coche"
+                            name="coche"
+                            required>
+                    J'ai lus, compris et accepte les conditions d'utilisations de mes données **
+                </div>
+
+            </div>
+        </div>
+
+        <div class="envoye">
+            <p class="formulaire__condition">* obligatoire
+                <br>** En communiquant ses informations, je consens à recevoir une réponse par voie électronique par le site camatch.aurelierunser.fr.
+            </p>
+            
+            <div>
+                <input type="submit" id="btn__envoye">
+                <div class="envoye__contour"></div>
+            </div>
+        </div>
+
+        
 
     </div>
 </body>

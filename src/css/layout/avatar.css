@@ -1,7 +1,6 @@
 .equipe{
     display: flex;
     justify-content: space-around;
-    margin: 10vh 0;
 }
 
 .equipe__avatar{

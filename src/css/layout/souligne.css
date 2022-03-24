@@ -1,15 +1,23 @@
 .souligne{
-    height: 25px;
+    height: 20px;
     background-color: var(--color-deco);
 }
 
 .slogan__souligne{
     margin-top: -20px;
-    width: 390px;
+    margin-left: -15px;
+    width: 395px;
+    height: 25px;
 }
 
 .equipe__souligne{
     margin-top: -17px;
-    margin-left: -5px;
+    margin-left: -10px;
     width: 230px;
+}
+
+.contact__souligne{
+    margin-top: -17px;
+    margin-left: -10px;
+    width: 265px;
 }

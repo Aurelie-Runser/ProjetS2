@@ -1,0 +1,64 @@
+.contact__formulaire{
+    padding: 2vw;
+    width: 65%;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.formulaire__prenomnom{
+    margin-bottom: 5%;
+}
+
+#nom,
+#prenom{
+    width: 30%;
+}
+
+#nom{
+    margin-right: 5%;
+}
+
+#email{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 5%;
+    padding: 1rem;
+    font-family: var(--font-text);
+}
+
+.envoye{
+    display: flex;
+    margin-top: 3vh;
+    padding-right: 15vw;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+#btn__envoye{
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    color: var(--color-text-claire);
+    background-color: var(--color-deco);
+    border-radius: 10px;
+    padding: 1rem 3vw;
+}
+
+.envoye__contour{
+    content: " ";
+    margin-top: -50px;
+    margin-left: 10px;
+    width: 157px;
+    height: 60px;
+    border: 2px solid var(--color-text-claire);
+    border-radius: 10px;
+}
