@@ -1,6 +1,7 @@
 .equipe{
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .equipe__avatar{
@@ -8,6 +9,7 @@
     flex-direction: column;
     width: 22vw;
     align-items: center;
+    border-radius: 20px;
 }
 
 .avatar__nom{
@@ -19,4 +21,13 @@
 .avatar__text{
     margin: 0.5vh 0;
     font-size: var(--size-text);
+}
+
+.equipe__avatar:hover .avatar__nom{
+    font-weight: 700;
+    color: var(--color-deco);
+}
+
+.equipe__avatar:hover{
+    box-shadow: 5px 10px 10px var(--color-deco);
 }

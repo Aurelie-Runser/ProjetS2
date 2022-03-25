@@ -25,3 +25,12 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.banniere__slogan{
+    font-size: var(--size-slogan);
+}
+
+.banniere__slogan:hover{
+    color: var(--color-text-claire);
+    transition: all 0.5s;
+}

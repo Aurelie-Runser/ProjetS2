@@ -14,6 +14,11 @@
     height: 40vh;
 }
 
+.valeur__img:hover{
+    scale: 1.1;
+    transition: all ease-in-out 0.3s;
+}
+
 .valeur__text-droit{
     margin-left: 10vw;
 }

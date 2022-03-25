@@ -10,6 +10,13 @@
     height: 25px;
 }
 
+.banniere__slogan:hover + .slogan__souligne{
+    height: 120px;
+    width: 550px;
+    margin-top: -120px;
+    transition: all 0.5s;
+}
+
 .equipe__souligne{
     margin-top: -17px;
     margin-left: -10px;

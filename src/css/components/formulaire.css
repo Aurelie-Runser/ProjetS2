@@ -36,6 +36,10 @@ textarea{
     font-family: var(--font-text);
 }
 
+#coche{
+    cursor: pointer;
+}
+
 .envoye{
     display: flex;
     margin-top: 3vh;
@@ -45,6 +49,7 @@ textarea{
 }
 
 #btn__envoye{
+    cursor: pointer;
     font-family: var(--font-title);
     font-size: 1.2rem;
     color: var(--color-text-claire);

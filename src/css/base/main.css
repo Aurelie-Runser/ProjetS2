@@ -59,13 +59,9 @@ ul{
     font-family: var(--font-logo);
 }
 
-.banniere__slogan{
-    font-size: var(--size-slogan);
-}
-
 .title{
     display: inline-block;
-    margin: 15vh 0 10vh 2vw;
+    margin: 15vh 0 10vh 4vw;
     font-family: var(--font-title);
     font-size: var(--size-title);
 }
