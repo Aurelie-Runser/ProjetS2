@@ -1,14 +1,13 @@
 .header__logo{
     position: absolute;
-    display: flex;
-    width: 100%;
+    margin-top: 3vh;
+    width: 100vw;
     justify-content: center;
-    margin: 3vh 0;
 }
 
 .header__banniere{
     display: flex;
-    width: 100%;
+    width: 100vw;
     align-items: center;
 }
 

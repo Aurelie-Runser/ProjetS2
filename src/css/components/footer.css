@@ -1,0 +1,9 @@
+footer{
+    margin-top: 25vh;
+    padding: 1rem;
+    background-color: var(--color-deco);
+}
+
+footer a{
+    color: var(--color-text-claire);
+}

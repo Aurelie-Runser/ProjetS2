@@ -7,9 +7,11 @@ button{
 }
 
 .button__inscritpion{
+    width: 100%;
     font-size: var(--size-button);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .button__inscritpion::after,
@@ -17,18 +19,28 @@ button{
     cursor: pointer;
     content: " ";
     display: inline-block;
-    width: 290px;
-    height: 80px;
+    width: 360px;
+    height: 90px;
     border: 1px solid black;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .button__inscritpion::after{
-    margin-left: -255px;
-    margin-top: -8px;
+    margin-left: -290px;
+    margin-top: -10px;
+    box-shadow: -2px 1px 5px var(--color-ombre);
 }
 
 .button__inscritpion::before{
-    margin-right: -255px;
-    margin-bottom: -8px;
+    margin-right: -295px;
+    margin-bottom: -10px;
+    box-shadow: -2px 1px 5px var(--color-ombre);
+}
+
+.button__inscritpion:hover::after{
+    box-shadow: inset -2px 1px 5px var(--color-ombre);
+}
+
+.button__inscritpion:hover::before{
+    box-shadow: inset -2px 1px 5px var(--color-ombre);
 }
