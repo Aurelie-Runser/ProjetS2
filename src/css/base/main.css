@@ -16,7 +16,8 @@ body{
 
 h1,
 h3,
-.button__inscritpion{
+.button__inscritpion,
+footer{
     font-weight: 700;
     font-style: italic;
     font-family: var(--font-title);
@@ -53,6 +54,8 @@ ul{
 }
 
 .logo__text{
+    width: 100%;
+    text-align: center;
     font-family: var(--font-logo);
 }
 
@@ -74,4 +77,14 @@ ul{
     line-height: 1.5rem;
     background-color: var(--color-deco);
     border-radius: 25px;
+}
+
+.conditions{
+    padding: 3vw;
+    padding-top: 15vh;
+}
+
+.conditions__title{
+    text-transform: uppercase;
+    margin-bottom: 10vh;
 }

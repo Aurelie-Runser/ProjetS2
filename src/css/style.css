@@ -9,6 +9,7 @@
 
 /* Compenents */
 @import url("components/header.css");
+@import url("components/footer.css");
 @import url("components/bouton.css");
 @import url("components/valeur.css");
 @import url("components/contact.css");
