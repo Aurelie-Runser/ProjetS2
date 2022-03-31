@@ -28,7 +28,6 @@ button{
 .button__inscritpion::after{
     margin-left: -290px;
     margin-top: -10px;
-    box-shadow: -2px 1px 5px var(--color-deco);
 }
 
 .button__inscritpion::before{
@@ -42,5 +41,5 @@ button{
 }
 
 .button__inscritpion:hover::before{
-    box-shadow: inset -2px 1px 5px var(--color-deco);
+    box-shadow: none;
 }

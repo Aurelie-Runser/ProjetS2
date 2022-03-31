@@ -11,16 +11,30 @@
 }
 
 .valeur__img{
-    height: 40vh;
+    height: 45vh;
+    transition: all ease-in-out 0.3s;
 }
 
 .valeur__img:hover{
     scale: 1.1;
-    transition: all ease-in-out 0.3s;
+    transform: rotate(5deg);
+}
+
+.img-droite:hover{
+    transform: rotate(-5deg);
 }
 
 .valeur__text-droit{
     margin-left: 10vw;
+}
+
+.valeur__text-gauche{
+    margin-right: 15vw;
+}
+
+.valeur__txt{
+    margin-top: 2rem;
+    font-size: var(--size-text);
 }
 
 .valeur__button{

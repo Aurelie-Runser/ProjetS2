@@ -8,13 +8,13 @@
     margin-left: -15px;
     width: 395px;
     height: 25px;
+    transition: all 0.5s;
 }
 
 .banniere__slogan:hover + .slogan__souligne{
     height: 120px;
     width: 550px;
     margin-top: -120px;
-    transition: all 0.5s;
 }
 
 .equipe__souligne{

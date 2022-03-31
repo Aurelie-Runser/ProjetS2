@@ -10,6 +10,7 @@
     width: 22vw;
     align-items: center;
     border-radius: 20px;
+    transition: all 0.3s;
 }
 
 .avatar__nom{
@@ -23,11 +24,8 @@
     font-size: var(--size-text);
 }
 
-.equipe__avatar:hover .avatar__nom{
+.equipe__avatar:hover{
     font-weight: 700;
     color: var(--color-deco);
-}
-
-.equipe__avatar:hover{
     box-shadow: 5px 10px 10px var(--color-deco);
 }
