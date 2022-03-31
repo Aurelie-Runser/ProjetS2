@@ -15,16 +15,17 @@
     transition: all ease-in-out 0.3s;
 }
 
-.valeur__img:hover{
+.valeur-inverse:hover .valeur__img{
     scale: 1.1;
     transform: rotate(5deg);
 }
 
-.img-droite:hover{
+.valeur:hover .valeur__img{
+    scale: 1.1;
     transform: rotate(-5deg);
 }
 
-.valeur__text-droit{
+.valeur__text-droite{
     margin-left: 10vw;
 }
 
