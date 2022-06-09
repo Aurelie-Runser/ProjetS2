@@ -17,6 +17,11 @@
     margin: 5vh 0;
 }
 
+.bannniere__text{
+    width: auto;
+    height: auto;
+}
+
 .banniere__droit{
     display: flex;
     flex-direction: column;

@@ -66,6 +66,10 @@ ul{
     font-size: var(--size-title);
 }
 
+.title-text{
+    color: white;
+}
+
 .equipe__presentation{
     margin: 10vh 3vw 0 3vw;
     padding: 7vh 5vw calc(7vh - 1rem) 5vw;

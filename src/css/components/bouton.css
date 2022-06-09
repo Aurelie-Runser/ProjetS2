@@ -26,12 +26,12 @@ button{
 }
 
 .button__inscritpion::after{
-    margin-left: -290px;
+    margin-left: -340px;
     margin-top: -10px;
 }
 
 .button__inscritpion::before{
-    margin-right: -295px;
+    margin-right: -350px;
     margin-bottom: -10px;
     box-shadow: -2px 1px 5px var(--color-deco);
 }
